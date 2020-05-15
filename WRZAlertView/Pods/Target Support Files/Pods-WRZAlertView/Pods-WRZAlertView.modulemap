@@ -1,0 +1,6 @@
+module Pods_WRZAlertView {
+  umbrella header "Pods-WRZAlertView-umbrella.h"
+
+  export *
+  module * { export * }
+}
