@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		427D873A246E3A4F00D4FB77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D8739246E3A4F00D4FB77 /* AppDelegate.swift */; };
-		427D873C246E3A4F00D4FB77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D873B246E3A4F00D4FB77 /* SceneDelegate.swift */; };
 		427D873E246E3A4F00D4FB77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427D873D246E3A4F00D4FB77 /* ViewController.swift */; };
 		427D8741246E3A4F00D4FB77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427D873F246E3A4F00D4FB77 /* Main.storyboard */; };
 		427D8743246E3A5200D4FB77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427D8742246E3A5200D4FB77 /* Assets.xcassets */; };
@@ -22,7 +21,6 @@
 		123B3F47B3B78C1380E776C1 /* Pods-WRZAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WRZAlertView.debug.xcconfig"; path = "Target Support Files/Pods-WRZAlertView/Pods-WRZAlertView.debug.xcconfig"; sourceTree = "<group>"; };
 		427D8736246E3A4F00D4FB77 /* WRZAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WRZAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		427D8739246E3A4F00D4FB77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		427D873B246E3A4F00D4FB77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		427D873D246E3A4F00D4FB77 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		427D8740246E3A4F00D4FB77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		427D8742246E3A5200D4FB77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,7 +48,6 @@
 				123B3F47B3B78C1380E776C1 /* Pods-WRZAlertView.debug.xcconfig */,
 				0ECF3E9EF1C260298A4BC252 /* Pods-WRZAlertView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -77,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				427D8739246E3A4F00D4FB77 /* AppDelegate.swift */,
-				427D873B246E3A4F00D4FB77 /* SceneDelegate.swift */,
 				427D873D246E3A4F00D4FB77 /* ViewController.swift */,
 				427D873F246E3A4F00D4FB77 /* Main.storyboard */,
 				427D8742246E3A5200D4FB77 /* Assets.xcassets */,
@@ -195,7 +191,6 @@
 			files = (
 				427D873E246E3A4F00D4FB77 /* ViewController.swift in Sources */,
 				427D873A246E3A4F00D4FB77 /* AppDelegate.swift in Sources */,
-				427D873C246E3A4F00D4FB77 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +338,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3HC7SAE25;
 				INFOPLIST_FILE = WRZAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -362,6 +358,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N3HC7SAE25;
 				INFOPLIST_FILE = WRZAlertView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

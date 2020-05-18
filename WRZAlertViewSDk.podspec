@@ -1,9 +1,5 @@
 
-
 Pod::Spec.new do |spec|
-
-  # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-
 
   spec.name         = "WRZAlertViewSDk"
   spec.version      = "1.0.0"
@@ -13,8 +9,8 @@ Pod::Spec.new do |spec|
   spec.swift_version = '5.0'
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-    # spec.license      = "MIT (example)"
- spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT"
+ spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -37,7 +33,7 @@ Pod::Spec.new do |spec|
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
  
 
-  spec.source_files  = "Cocopodsfiles", "WRZAlertView/WRZAlertView/Cocopodsfiles/**/*.{swift}"
+  spec.source_files  = "WRZAlertView/Cocopodsfiles/**/*.{swift}"
   #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
@@ -53,7 +49,7 @@ Pod::Spec.new do |spec|
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "UIKit"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
@@ -64,7 +60,6 @@ Pod::Spec.new do |spec|
 
 spec.requires_arc = true
 
-  # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-   spec.dependency "Snapkit"
+   spec.dependency "SnapKit"
 
 end
